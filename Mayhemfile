@@ -1,7 +1,5 @@
 project: goshs
 target: goshs
-image: ghcr.io/ebell495/goshs
-duration: 300
 cmds:
   - cmd: /goshs/dist/linux_amd64/goshs -p 8080
     network:
